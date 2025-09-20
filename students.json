@@ -1,0 +1,29 @@
+{
+    "student1": {
+        "password": "pass123",
+        "attendance": 85,
+        "grades": {
+            "Math": 95,
+            "Science": 88,
+            "English": 90
+        }
+    },
+    "student2": {
+        "password": "pass456",
+        "attendance": 90,
+        "grades": {
+            "Math": 80,
+            "Science": 92,
+            "English": 85
+        }
+    },
+    "abi": {
+        "password": "abi123",
+        "attendance": 12,
+        "grades": {
+            "Math": 3,
+            "Science": 0,
+            "English": 2
+        }
+    }
+}
