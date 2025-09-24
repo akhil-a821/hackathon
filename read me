@@ -1,0 +1,55 @@
+Slide 1: Introduction
+
+“Good [morning/afternoon], everyone. Today, I’m going to present our Student Management System, a web-based application designed to help educational institutions manage student data efficiently.”
+
+Slide 2: Technologies Used
+
+“Our system is built using Flask, a lightweight Python web framework that handles the backend and routing. The frontend uses HTML with Jinja2 templating to render dynamic content.
+
+For data visualization, we use Matplotlib to generate charts showing student grades, and FPDF to create downloadable PDF reports that include these charts. Student data is stored in a JSON file for simplicity and ease of use.”
+
+Slide 3: Methodology
+
+“We followed the Model-View-Controller (MVC) pattern in designing the app:
+
+The Model is the JSON file where student data is saved.
+
+The View is the set of HTML templates showing dashboards and forms.
+
+The Controller consists of Flask routes managing user requests and application logic.
+
+We used an agile development approach, incrementally adding features, testing, and improving the system based on feedback.”
+
+Slide 4: Process Implementation
+
+“Here’s how the system works:
+
+When users open the app, they log in either as a Student or Admin.
+
+Students are directed to a personalized dashboard displaying their attendance, grades, and a bar chart visualization of their performance.
+
+Admins access a dashboard where they can add, edit, or delete student records, and also generate comprehensive PDF reports with grade charts for all students.
+
+The system manages sessions securely to restrict access based on roles.
+
+Users can log out safely after completing their tasks.”
+
+Slide 5: Flowchart Explanation
+
+“This flowchart visually represents the process:
+
+Starting from the app launch,
+
+Depending on login type, users navigate to their respective dashboards,
+
+Admins have additional management features,
+
+Both roles have the ability to log out,
+
+And the system ensures smooth transitions and role-based access throughout.”
+
+Slide 6: Conclusion
+
+“In conclusion, our Student Management System offers a simple, effective solution for managing student records, visualizing performance, and generating reports — all accessible through a user-friendly web interface.
+
+Thank you for your attention. I’m happy to answer any questions you may have.
